@@ -235,14 +235,8 @@ class Map3D:
         display(Image(self._filename))
 
     def save(self, filename):
-<<<<<<< HEAD
         """Saves a PNG image of map3d to the specified *filename*"""
         from PIL import Image
+
         img = Image.open(self._filename)
         img.save(filename)
-=======
-        """Saves a PNG image of map3d to the specified *filename*"""        
-        img = Image.open(self._filename)
-        img.save(filename)
-    
->>>>>>> 407be15b04053e5af12176c382dfd2ab98dc27dd
